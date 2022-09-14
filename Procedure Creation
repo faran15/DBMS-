@@ -1,0 +1,12 @@
+
+Procedure Creation
+create or replace procedure insertuser1
+    (id IN NUMBER,
+    name IN VARCHAR2)
+    is
+    begin
+    insert into user1 values(id,name);
+    end;
+    /
+
+SQL> Set serveroutput on;
